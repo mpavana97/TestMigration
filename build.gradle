@@ -1,0 +1,51 @@
+plugins {
+    id 'java'
+    id 'war' // ✅ Needed for building a WAR for deployment in Tomcat
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework:spring-webmvc:5.3.38'
+    implementation 'org.springframework:spring-context:5.3.38'
+    implementation 'org.springframework:spring-orm:5.3.38'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.5'
+
+    implementation 'org.hibernate:hibernate-core:5.6.15.Final'
+
+    implementation 'javax.persistence:javax.persistence-api:2.2'
+    compileOnly 'javax.servlet:javax.servlet-api:4.0.1'
+
+    implementation 'com.mysql:mysql-connector-j:8.0.33'
+
+    implementation 'commons-dbcp:commons-dbcp:1.4'
+
+    compileOnly 'org.projectlombok:lombok:1.18.34'
+    annotationProcessor 'org.projectlombok:lombok:1.18.34'
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java']
+        }
+        resources {
+            srcDirs = ['src/main/resources']
+        }
+    }
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
