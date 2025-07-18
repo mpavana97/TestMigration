@@ -2,30 +2,48 @@ package com.example.demo.dao;
 
 import java.util.List;
 
-import org.springframework.orm.hibernate5.HibernateTemplate;
 import org.springframework.stereotype.Repository;
 
-import org.hibernate.criterion.DetachedCriteria;
-import org.hibernate.criterion.Restrictions;
+import jakarta.persistence.criteria.CriteriaBuilder;
+import jakarta.persistence.criteria.CriteriaQuery;
+import jakarta.persistence.criteria.Root;
+import jakarta.transaction.Transactional;
 
-import lombok.Setter;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
 
 import com.example.demo.model.Employee;
 
 
-@Setter
 @Repository("employeeDao")
+@Transactional
 public class EmployeeDao {
 
-    private HibernateTemplate hibernateTemplate;
+    private final SessionFactory sessionFactory;
+
+    public EmployeeDao(SessionFactory sessionFactory) {
+
+        this.sessionFactory = sessionFactory;
+    }
 
     public void save(Employee emp) {
-        hibernateTemplate.save(emp);
+
+        getCurrentSession().persist(emp);
     }
 
     public List<Employee> findByDepartment(String dept) {
-        DetachedCriteria criteria = DetachedCriteria.forClass(Employee.class);
-        criteria.add(Restrictions.eq("department", dept));
-        return (List<Employee>) hibernateTemplate.findByCriteria(criteria);
+
+        Session session = getCurrentSession();
+        CriteriaBuilder cb = session.getCriteriaBuilder();
+        CriteriaQuery<Employee> query = cb.createQuery(Employee.class);
+        Root<Employee> root = query.from(Employee.class);
+        query.select(root).where(cb.equal(root.get("department"), dept));
+        return session.createQuery(query).getResultList();
     }
+
+    private Session getCurrentSession() {
+
+        return sessionFactory.getCurrentSession();
+    }
+
 }
