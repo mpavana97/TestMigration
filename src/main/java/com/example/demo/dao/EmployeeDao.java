@@ -2,48 +2,39 @@ package com.example.demo.dao;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import jakarta.persistence.criteria.CriteriaBuilder;
-import jakarta.persistence.criteria.CriteriaQuery;
-import jakarta.persistence.criteria.Root;
 import jakarta.transaction.Transactional;
 
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-
 import com.example.demo.model.Employee;
+import com.example.demo.util.CriteriaUtil;
 
 
 @Repository("employeeDao")
 @Transactional
 public class EmployeeDao {
 
-    private final SessionFactory sessionFactory;
-
-    public EmployeeDao(SessionFactory sessionFactory) {
-
-        this.sessionFactory = sessionFactory;
-    }
+    @Autowired
+    private CriteriaUtil jpaCriteriaUtil;
 
     public void save(Employee emp) {
 
-        getCurrentSession().persist(emp);
+        jpaCriteriaUtil.persist(emp);
     }
+
+    //    public List<Employee> findByDepartment(String dept) {
+    //
+    //        CriteriaBuilder cb = entityManager.getCriteriaBuilder();
+    //        CriteriaQuery<Employee> query = cb.createQuery(Employee.class);
+    //        Root<Employee> root = query.from(Employee.class);
+    //        query.select(root).where(cb.equal(root.get("department"), dept));
+    //        return entityManager.createQuery(query).getResultList();
+    //    }
 
     public List<Employee> findByDepartment(String dept) {
 
-        Session session = getCurrentSession();
-        CriteriaBuilder cb = session.getCriteriaBuilder();
-        CriteriaQuery<Employee> query = cb.createQuery(Employee.class);
-        Root<Employee> root = query.from(Employee.class);
-        query.select(root).where(cb.equal(root.get("department"), dept));
-        return session.createQuery(query).getResultList();
-    }
-
-    private Session getCurrentSession() {
-
-        return sessionFactory.getCurrentSession();
+        return jpaCriteriaUtil.findByField(Employee.class, "department", dept);
     }
 
 }
