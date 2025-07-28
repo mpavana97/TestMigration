@@ -19,10 +19,13 @@ import jakarta.persistence.criteria.Predicate;
 import jakarta.persistence.criteria.Root;
 import jakarta.transaction.Transactional;
 
+import com.example.demo.dto.UserDTO;
+import com.example.demo.model.Employee;
 import com.example.demo.model.Organization;
 import com.example.demo.model.Role;
 import com.example.demo.model.User;
 import com.example.demo.util.CriteriaUtil;
+import com.example.demo.vo.SimpleCriteria;
 
 
 @Repository("accessControlDao")
@@ -35,43 +38,13 @@ public class AccessControlDao {
     @Autowired
     private CriteriaUtil criteriaUtil;
 
-    public List<User> searchUsers(Map<String, String> filterMap) {
+    public List<UserDTO> searchUsers(Map<String, String> filterMap) {
 
         CriteriaBuilder cb = entityManager.getCriteriaBuilder();
-        CriteriaQuery<User> cq = cb.createQuery(User.class);
+        CriteriaQuery<UserDTO> cq = cb.createQuery(UserDTO.class);
         Root<User> root = cq.from(User.class);
-        root.fetch("userAuthorityMaps", JoinType.LEFT);
 
         List<Predicate> predicates = new ArrayList<>();
-
-        //Tuple
-
-        //Check if there s something like Select abc from table //TO-DO
-
-        //        cq.multiselect(root.get("userLoginId"), root.get("email")); // Example projection
-        //
-        //        List<Object[]> results = entityManager.createQuery(cq).getResultList();
-        //        for (Object[] row : results) {
-        //            String userLoginId = (String) row[0];
-        //            String email = (String) row[1];
-        //            // Process values manually
-        //        }
-
-        //Multipselect
-
-        //        CriteriaQuery<Tuple> tupleQuery = cb.createTupleQuery();
-        //        Root<User> root = tupleQuery.from(User.class);
-        //
-        //        tupleQuery.multiselect(
-        //            root.get("userLoginId").alias("login"),
-        //            root.get("email").alias("mail")
-        //        );
-        //
-        //        List<Tuple> tuples = entityManager.createQuery(tupleQuery).getResultList();
-        //        for (Tuple tuple : tuples) {
-        //            String login = tuple.get("login", String.class);
-        //            String email = tuple.get("mail", String.class);
-        //        }
 
         if (filterMap.containsKey("roleName")) {
             String roleName = filterMap.get("roleName");
@@ -81,7 +54,6 @@ public class AccessControlDao {
             }
         }
 
-        //Joins
         if (filterMap.containsKey("orgName")) {
             String orgName = filterMap.get("orgName");
             if (orgName != null && !orgName.isEmpty()) {
@@ -90,12 +62,19 @@ public class AccessControlDao {
             }
         }
 
-        cq.select(root).where(cb.and(predicates.toArray(new Predicate[0])));
+        cq.select(cb.construct(UserDTO.class, root.get("userId"), root.get("userLoginId")));
 
-        //Sorting by userLoginId
+        cq.where(cb.and(predicates.toArray(new Predicate[0])));
         cq.orderBy(cb.asc(root.get("userLoginId")));
 
         return criteriaUtil.getResultList(cq);
+    }
+
+    public void search(Employee emp) {
+
+        SimpleCriteria<User> result = SimpleCriteria.forClass(entityManager, User.class).addCustomPredicate(
+                p -> p.eq("status", "ACTIVE").like("name", "Harish%").in("role.name", List.of("ADMIN", "USER")).notNull("email"))
+            .select(UserDTO.class, "name", "email");
     }
 
     public User getUserByUserId(Long userId) {
