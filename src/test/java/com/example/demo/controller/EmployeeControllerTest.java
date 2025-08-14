@@ -1,13 +1,13 @@
 package com.example.demo.controller;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.Arrays;
 import java.util.List;
 
 import org.easymock.EasyMock;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import com.example.demo.model.Employee;
 import com.example.demo.model.Organization;
@@ -20,7 +20,7 @@ public class EmployeeControllerTest {
 
     private EmployeeService employeeServiceMock;
 
-    @Before
+    @BeforeEach
     public void setUp() {
 
         employeeServiceMock = EasyMock.createMock(EmployeeService.class);
@@ -41,6 +41,7 @@ public class EmployeeControllerTest {
         assertEquals("Employee saved!", result);
 
         EasyMock.verify(employeeServiceMock);
+        EasyMock.reset(employeeServiceMock);
     }
 
     @Test
@@ -55,6 +56,7 @@ public class EmployeeControllerTest {
         assertEquals(expectedList, result);
 
         EasyMock.verify(employeeServiceMock);
+        EasyMock.reset(employeeServiceMock);
     }
 
     @Test
@@ -68,6 +70,7 @@ public class EmployeeControllerTest {
         assertEquals(expectedOrgs, result);
 
         EasyMock.verify(employeeServiceMock);
+        EasyMock.reset(employeeServiceMock);
     }
 
 }

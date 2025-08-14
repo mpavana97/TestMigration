@@ -32,7 +32,7 @@ dependencies {
     compileOnly 'org.projectlombok:lombok:1.18.34'
     annotationProcessor 'org.projectlombok:lombok:1.18.34'
 
-    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
     testImplementation 'org.easymock:easymock:5.2.0'
 }
 
@@ -48,5 +48,5 @@ sourceSets {
 }
 
 tasks.named('test') {
-    // useJUnitPlatform() // Remove or comment out this line for JUnit 4
+    useJUnitPlatform()
 }
