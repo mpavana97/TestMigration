@@ -29,7 +29,6 @@ public class EmployeeController {
         String name,
         @RequestParam("dept")
         String dept) {
-
         employeeService.addEmployee(name, dept);
         return "Employee saved!";
     }
