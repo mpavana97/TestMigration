@@ -8,14 +8,14 @@ import java.util.List;
 import java.util.Map;
 import java.util.function.Consumer;
 
-import javax.persistence.Parameter;
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Join;
-import javax.persistence.criteria.ParameterExpression;
-import javax.persistence.criteria.Path;
-import javax.persistence.criteria.Predicate;
-import javax.persistence.criteria.Root;
+import jakarta.persistence.Parameter;
+import jakarta.persistence.criteria.CriteriaBuilder;
+import jakarta.persistence.criteria.CriteriaQuery;
+import jakarta.persistence.criteria.Join;
+import jakarta.persistence.criteria.ParameterExpression;
+import jakarta.persistence.criteria.Path;
+import jakarta.persistence.criteria.Predicate;
+import jakarta.persistence.criteria.Root;
 
 import org.hibernate.Session;
 import org.hibernate.query.Query;
@@ -235,7 +235,7 @@ public class SimpleCriteria<T> {
 
             // If value is a temporal type, bind explicitly using TemporalType
             if (value instanceof java.util.Date) {
-                query.setParameter((Parameter) param, (java.util.Date) value, javax.persistence.TemporalType.TIMESTAMP);
+                query.setParameter((Parameter) param, (java.util.Date) value, jakarta.persistence.TemporalType.TIMESTAMP);
             } else if (value instanceof java.time.LocalDateTime) {
                 query.setParameter((Parameter) param, (java.time.LocalDateTime) value);
             } else if (value instanceof java.time.LocalDate) {
