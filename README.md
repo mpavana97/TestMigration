@@ -9,7 +9,7 @@ Steps to startup:
 4) Start application ./startup.sh (Run in bin folder of tomcat)
 5) Check catalina logs: tail -n 100 /Users/pavana.m/Documents/apache-tomcat-9.0.90/logs/catalina.out
 
-The changes are on Hibernate 6 and Spring 5, Tomcat 10.1
+The changes are on Hibernate 6 and Spring 5, Tomcat 10.1 (currently this works for 10.1)
 If needed to check the Hibernate 5.x version, drop the last commit having Hibernate 6 changes
 Endpoint:
 http://localhost:8080/demo-0.0.1-SNAPSHOT/ad/listById?id=123
