@@ -1,0 +1,189 @@
+17-Jul-2025 14:05:10.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.90
+17-Jul-2025 14:05:10.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 14 2024 14:45:13 UTC
+17-Jul-2025 14:05:10.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.90.0
+17-Jul-2025 14:05:10.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+17-Jul-2025 14:05:10.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.5
+17-Jul-2025 14:05:10.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+17-Jul-2025 14:05:10.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/pavana.m/Library/Java/JavaVirtualMachines/corretto-21.0.7/Contents/Home
+17-Jul-2025 14:05:10.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.7+6-LTS
+17-Jul-2025 14:05:10.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+17-Jul-2025 14:05:10.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/pavana.m/Documents/apache-tomcat-9.0.90
+17-Jul-2025 14:05:10.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/pavana.m/Documents/apache-tomcat-9.0.90
+17-Jul-2025 14:05:10.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Jul-2025 14:05:10.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Jul-2025 14:05:10.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-Jul-2025 14:05:10.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Jul-2025 14:05:10.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Jul-2025 14:05:10.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/pavana.m/Documents/apache-tomcat-9.0.90/conf/logging.properties
+17-Jul-2025 14:05:10.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Jul-2025 14:05:10.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Jul-2025 14:05:10.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Jul-2025 14:05:10.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Jul-2025 14:05:10.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxRAMPercentage=75.0
+17-Jul-2025 14:05:10.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+17-Jul-2025 14:05:10.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xlog:gc=debug:file=/Users/pavana.m/Downloads/demo/Local_Files/logs/gc.log:time,uptime,level,tags:filecount=10,filesize=10m
+17-Jul-2025 14:05:10.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.properties=/Users/pavana.m/Documents/apache-tomcat-9.0.90/conf/security/enableLegacyTLS.security
+17-Jul-2025 14:05:10.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Doracle.jdbc.timezoneAsRegion=false
+17-Jul-2025 14:05:10.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dtomcat.log.path=/Users/pavana.m/Downloads/demo/Local_Files/logs
+17-Jul-2025 14:05:10.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Users/pavana.m/Documents/apache-tomcat-9.0.90/lib/jmx_prometheus_javaagent-0.18.0.jar=8088:/Users/pavana.m/Documents/apache-tomcat-9.0.90/lib/javaagent_conf.yml
+17-Jul-2025 14:05:10.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Jul-2025 14:05:10.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/pavana.m/Documents/apache-tomcat-9.0.90
+17-Jul-2025 14:05:10.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/pavana.m/Documents/apache-tomcat-9.0.90
+17-Jul-2025 14:05:10.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/pavana.m/Downloads/demo/Local_Files/temp
+17-Jul-2025 14:05:10.615 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/pavana.m/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+17-Jul-2025 14:05:10.731 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Jul-2025 14:05:10.736 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [201] milliseconds
+17-Jul-2025 14:05:10.760 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Jul-2025 14:05:10.760 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.90]
+17-Jul-2025 14:05:10.769 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/demo-0.0.1-SNAPSHOT.war]
+17-Jul-2025 14:05:11.669 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2025 14:05:11.679 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/demo-0.0.1-SNAPSHOT.war] has finished in [910] ms
+17-Jul-2025 14:05:11.679 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/docs]
+17-Jul-2025 14:05:11.725 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2025 14:05:11.726 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/docs] has finished in [47] ms
+17-Jul-2025 14:05:11.726 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/manager]
+17-Jul-2025 14:05:11.772 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2025 14:05:11.775 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/manager] has finished in [49] ms
+17-Jul-2025 14:05:11.775 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/examples]
+17-Jul-2025 14:05:12.149 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2025 14:05:12.154 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/examples] has finished in [379] ms
+17-Jul-2025 14:05:12.154 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/ROOT]
+17-Jul-2025 14:05:12.181 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2025 14:05:12.182 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/ROOT] has finished in [28] ms
+17-Jul-2025 14:05:12.182 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/host-manager]
+17-Jul-2025 14:05:12.213 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2025 14:05:12.213 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/host-manager] has finished in [31] ms
+17-Jul-2025 14:05:12.214 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Jul-2025 14:05:12.217 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1480] milliseconds
+17-Jul-2025 14:09:28.578 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Jul-2025 14:09:28.578 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Jul-2025 14:09:29.581 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Jul-2025 14:09:29.600 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Jul-2025 14:09:30.206 WARNING [main] org.apache.tomcat.util.net.Acceptor.stopMillis The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+17-Jul-2025 14:09:30.209 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Jul-2025 14:12:14.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.90
+17-Jul-2025 14:12:14.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 14 2024 14:45:13 UTC
+17-Jul-2025 14:12:14.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.90.0
+17-Jul-2025 14:12:14.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+17-Jul-2025 14:12:14.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.5
+17-Jul-2025 14:12:14.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+17-Jul-2025 14:12:14.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/pavana.m/Library/Java/JavaVirtualMachines/corretto-21.0.7/Contents/Home
+17-Jul-2025 14:12:14.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.7+6-LTS
+17-Jul-2025 14:12:14.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+17-Jul-2025 14:12:14.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/pavana.m/Documents/apache-tomcat-9.0.90
+17-Jul-2025 14:12:14.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/pavana.m/Documents/apache-tomcat-9.0.90
+17-Jul-2025 14:12:14.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Jul-2025 14:12:14.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Jul-2025 14:12:14.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-Jul-2025 14:12:14.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Jul-2025 14:12:14.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Jul-2025 14:12:14.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/pavana.m/Documents/apache-tomcat-9.0.90/conf/logging.properties
+17-Jul-2025 14:12:14.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Jul-2025 14:12:14.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Jul-2025 14:12:14.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Jul-2025 14:12:14.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Jul-2025 14:12:14.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxRAMPercentage=75.0
+17-Jul-2025 14:12:14.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+17-Jul-2025 14:12:14.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xlog:gc=debug:file=/Users/pavana.m/Downloads/demo/Local_Files/logs/gc.log:time,uptime,level,tags:filecount=10,filesize=10m
+17-Jul-2025 14:12:14.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.properties=/Users/pavana.m/Documents/apache-tomcat-9.0.90/conf/security/enableLegacyTLS.security
+17-Jul-2025 14:12:14.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Doracle.jdbc.timezoneAsRegion=false
+17-Jul-2025 14:12:14.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dtomcat.log.path=/Users/pavana.m/Downloads/demo/Local_Files/logs
+17-Jul-2025 14:12:14.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Users/pavana.m/Documents/apache-tomcat-9.0.90/lib/jmx_prometheus_javaagent-0.18.0.jar=8088:/Users/pavana.m/Documents/apache-tomcat-9.0.90/lib/javaagent_conf.yml
+17-Jul-2025 14:12:14.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Jul-2025 14:12:14.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/pavana.m/Documents/apache-tomcat-9.0.90
+17-Jul-2025 14:12:14.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/pavana.m/Documents/apache-tomcat-9.0.90
+17-Jul-2025 14:12:14.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/pavana.m/Downloads/demo/Local_Files/temp
+17-Jul-2025 14:12:14.788 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/pavana.m/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+17-Jul-2025 14:12:14.905 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Jul-2025 14:12:14.911 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [184] milliseconds
+17-Jul-2025 14:12:14.933 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Jul-2025 14:12:14.933 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.90]
+17-Jul-2025 14:12:14.944 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/demo-0.0.1-SNAPSHOT.war]
+17-Jul-2025 14:12:15.695 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2025 14:12:15.705 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/demo-0.0.1-SNAPSHOT.war] has finished in [762] ms
+17-Jul-2025 14:12:15.705 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/docs]
+17-Jul-2025 14:12:15.748 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2025 14:12:15.749 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/docs] has finished in [44] ms
+17-Jul-2025 14:12:15.749 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/manager]
+17-Jul-2025 14:12:15.792 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2025 14:12:15.795 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/manager] has finished in [46] ms
+17-Jul-2025 14:12:15.795 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/examples]
+17-Jul-2025 14:12:16.110 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2025 14:12:16.115 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/examples] has finished in [320] ms
+17-Jul-2025 14:12:16.115 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/ROOT]
+17-Jul-2025 14:12:16.140 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2025 14:12:16.141 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/ROOT] has finished in [26] ms
+17-Jul-2025 14:12:16.141 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/host-manager]
+17-Jul-2025 14:12:16.169 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2025 14:12:16.169 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/host-manager] has finished in [28] ms
+17-Jul-2025 14:12:16.171 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Jul-2025 14:12:16.173 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1261] milliseconds
+17-Jul-2025 14:26:36.777 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/demo-0.0.1-SNAPSHOT]
+17-Jul-2025 14:26:36.814 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/demo-0.0.1-SNAPSHOT.war]
+17-Jul-2025 14:26:37.579 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2025 14:26:37.581 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/demo-0.0.1-SNAPSHOT.war] has finished in [767] ms
+17-Jul-2025 14:28:52.922 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+17-Jul-2025 14:28:52.922 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+17-Jul-2025 14:28:53.925 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+17-Jul-2025 14:28:53.941 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+17-Jul-2025 14:28:54.542 WARNING [main] org.apache.tomcat.util.net.Acceptor.stopMillis The acceptor thread [http-nio-8080-Acceptor] did not stop cleanly
+17-Jul-2025 14:28:54.547 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+17-Jul-2025 14:29:06.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.90
+17-Jul-2025 14:29:06.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 14 2024 14:45:13 UTC
+17-Jul-2025 14:29:06.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.90.0
+17-Jul-2025 14:29:06.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+17-Jul-2025 14:29:06.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            15.5
+17-Jul-2025 14:29:06.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+17-Jul-2025 14:29:06.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/pavana.m/Library/Java/JavaVirtualMachines/corretto-21.0.7/Contents/Home
+17-Jul-2025 14:29:06.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.7+6-LTS
+17-Jul-2025 14:29:06.908 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+17-Jul-2025 14:29:06.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/pavana.m/Documents/apache-tomcat-9.0.90
+17-Jul-2025 14:29:06.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/pavana.m/Documents/apache-tomcat-9.0.90
+17-Jul-2025 14:29:06.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Jul-2025 14:29:06.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Jul-2025 14:29:06.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+17-Jul-2025 14:29:06.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+17-Jul-2025 14:29:06.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Jul-2025 14:29:06.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/pavana.m/Documents/apache-tomcat-9.0.90/conf/logging.properties
+17-Jul-2025 14:29:06.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Jul-2025 14:29:06.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Jul-2025 14:29:06.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Jul-2025 14:29:06.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+17-Jul-2025 14:29:06.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:MaxRAMPercentage=75.0
+17-Jul-2025 14:29:06.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseG1GC
+17-Jul-2025 14:29:06.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xlog:gc=debug:file=/Users/pavana.m/Downloads/demo/Local_Files/logs/gc.log:time,uptime,level,tags:filecount=10,filesize=10m
+17-Jul-2025 14:29:06.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.properties=/Users/pavana.m/Documents/apache-tomcat-9.0.90/conf/security/enableLegacyTLS.security
+17-Jul-2025 14:29:06.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Doracle.jdbc.timezoneAsRegion=false
+17-Jul-2025 14:29:06.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dtomcat.log.path=/Users/pavana.m/Downloads/demo/Local_Files/logs
+17-Jul-2025 14:29:06.909 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:/Users/pavana.m/Documents/apache-tomcat-9.0.90/lib/jmx_prometheus_javaagent-0.18.0.jar=8088:/Users/pavana.m/Documents/apache-tomcat-9.0.90/lib/javaagent_conf.yml
+17-Jul-2025 14:29:06.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Jul-2025 14:29:06.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/pavana.m/Documents/apache-tomcat-9.0.90
+17-Jul-2025 14:29:06.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/pavana.m/Documents/apache-tomcat-9.0.90
+17-Jul-2025 14:29:06.910 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/pavana.m/Downloads/demo/Local_Files/temp
+17-Jul-2025 14:29:06.914 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/pavana.m/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+17-Jul-2025 14:29:07.024 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Jul-2025 14:29:07.029 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [174] milliseconds
+17-Jul-2025 14:29:07.043 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Jul-2025 14:29:07.043 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.90]
+17-Jul-2025 14:29:07.050 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/demo-0.0.1-SNAPSHOT.war]
+17-Jul-2025 14:29:07.057 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/demo-0.0.1-SNAPSHOT] was found with a last modified time that did not match the associated WAR. It will be deleted.
+17-Jul-2025 14:29:07.859 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2025 14:29:07.869 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/demo-0.0.1-SNAPSHOT.war] has finished in [819] ms
+17-Jul-2025 14:29:07.869 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/docs]
+17-Jul-2025 14:29:07.912 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2025 14:29:07.912 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/docs] has finished in [43] ms
+17-Jul-2025 14:29:07.912 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/manager]
+17-Jul-2025 14:29:07.963 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2025 14:29:07.966 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/manager] has finished in [54] ms
+17-Jul-2025 14:29:07.966 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/examples]
+17-Jul-2025 14:29:08.376 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2025 14:29:08.380 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/examples] has finished in [414] ms
+17-Jul-2025 14:29:08.380 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/ROOT]
+17-Jul-2025 14:29:08.409 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2025 14:29:08.409 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/ROOT] has finished in [29] ms
+17-Jul-2025 14:29:08.409 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/host-manager]
+17-Jul-2025 14:29:08.440 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Jul-2025 14:29:08.441 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/pavana.m/Documents/apache-tomcat-9.0.90/webapps/host-manager] has finished in [32] ms
+17-Jul-2025 14:29:08.442 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Jul-2025 14:29:08.444 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1414] milliseconds
+17-Jul-2025 20:51:40.444 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/demo-0.0.1-SNAPSHOT]
